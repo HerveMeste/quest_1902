@@ -20,7 +20,7 @@ process.on("SIGTERM", () => {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   });
-  console.log("Connected");
+  console.log("Connected to database");
 
   app.get("/", (req, res) => {
     console.log("Got a request");
